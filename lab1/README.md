@@ -2,6 +2,8 @@
 
 กำหนดให้ integer n; return array “ans” (length n+1) ที่ในแต่ละ index (0 <= index <= n); ans[i] = จำนวนของ 1 ที่เป็น binary representation ของ i
 
+Challenge: ลองหา algorithm ที่ให้คำตอบใน O(n)
+
 ### Example Inputs
 
 ```js
@@ -38,10 +40,6 @@ function countBits(n) {
 ### Constraints
 
 0 <= n <= 10^5
-
----
-
-Challenge: ลองหา algorithm ที่ให้คำตอบใน O(n)
 
 ## Problem 2: Integer To Roman
 
